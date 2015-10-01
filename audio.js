@@ -61,7 +61,7 @@ function startPlay (aurl) {
 	var album = document.getElementById(albumi).innerHTML;
 	var artist = document.getElementById(artisti).innerHTML;
 	var year = document.getElementById(yeari).innerHTML;
-	infobar.innerHTML = "<center>"+title+"<br><font size=\"2\">"+album+"&nbsp&nbsp-&nbsp&nbsp"+artist+"<br>"+year+"</font></center>";
+	infobar.innerHTML = "<center><font size=\"2\">"+title+"</font><br><font size=\"2\">"+album+"&nbsp&nbsp-&nbsp&nbsp"+artist+"<br>"+year+"</font></center>";
 	var imf = document.getElementsByTagName("img")[0];
 	var audio = document.getElementsByTagName("audio")[0];
 	document.title = title + " - Now Playing"
